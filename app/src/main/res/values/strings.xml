@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Into The Night</string>
+
+    <string name="hello_world">Report this as a bug, please.</string>
+
+    <string name="main_menu">Welcome!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="new_game_selection">Select New Game Difficulty:</string>
+    <string name="difficulty_1">Easy</string>
+    <string name="difficulty_2">Medium</string>
+    <string name="difficulty_3">Hard</string>
+
+    <string name="tutorial_button_text">Start Tutorial</string>
+
+    <string name="title_activity_dynamic_board">Current Game</string>
+    <string name="tutorial_title_1">Tutorial Page 1/3</string>
+    <string name="tutorial_title_2">Tutorial Page 2/3</string>
+    <string name="tutorial_title_3">Tutorial Page 3/3</string>
+
+    <string name="tutorial_description_text_1_1">A tile is a rectangle that can be turned on or off:</string>
+    <string name="tutorial_description_text_1_2">Clicking a tile toggles that tile and some of its neighbors on or off:</string>
+    <string name="tutorial_description_text_1_3">Try clicking some tiles below</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+
+    <string name="tutorial_description_text_2_1">The game is won when all tiles on the board are off.</string>
+    <string name="tutorial_description_text_2_2">Try turning off all the tiles on the board below</string>
+    <string name="tutorial_hint_text_2_1">Hint: try clicking tiles that are on until 3 are on at once</string>
+
+    <string name="tutorial_description_text_3_1">Thanks for checking out this pet project!</string>
+    <string name="tutorial_description_text_3_2">If you find any bugs or just want to say hi, feel free to leave me some feedback!</string>
+    <string name="tutorial_description_text_3_3">It\'s getting late.  Be sure to turn out all the lights&#8230;</string>
+</resources>

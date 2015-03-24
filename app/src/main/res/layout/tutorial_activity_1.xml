@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tutorial_title_1"
+        android:id="@+id/tutorial_1_title"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/tutorial_description_text_1_1"
+                android:id="@+id/tutorial_1_description_1"
+                android:paddingTop="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_off"
+                    android:backgroundTint="#ff282828"
+                    android:background="@drawable/board_button_styles_rounded_green"
+                    android:padding="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On"
+                    android:id="@+id/tutorial_1_on"
+                    android:background="@drawable/board_button_styles_rounded_green"
+                    android:backgroundTint="#ff50c850"
+                    android:padding="20dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/tutorial_description_text_1_2"
+                android:id="@+id/tutorial_1_description_2"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tutorial_description_text_1_3"
+                android:id="@+id/tutorial_1_instruction_1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:columnCount="3"
+                android:rowCount="3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button11"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button12"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button13"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button21"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button22"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button23"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button31"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button32"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:id="@+id/tutorial_1_button33"
+                    android:background="@drawable/board_button_styles_rounded_green" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:gravity="center|bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Menu"
+            android:id="@+id/tutorial_1_main_menu" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Page"
+            android:id="@+id/next_tutorial_page_1" />
+
+    </LinearLayout>
+</LinearLayout>
